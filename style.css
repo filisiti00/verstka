@@ -1,0 +1,33 @@
+p {
+    color:red;
+
+}
+
+.header {
+    background: black;
+}
+
+section {
+    margin: 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 16px 8px;
+}
+
+.wpr {
+    display: flex;
+    min-height: 150px;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+.box {
+    width: 50px;
+    min-height: 50px;
+    background: blue;
+    border: 1px solid;
+}
+
+.footer {
+    background: grey;
+}
