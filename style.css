@@ -1,10 +1,95 @@
-p {
-    color:red;
+h2{
+    font: montserrat;
+}
+
+.today {
+    width: 878px;
+    height: 380px;
+    top: 240px;
+    left: 579px;
+}
+.menu {
+    background: black;
+    width: 1113px;
+    min-height: 117px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.entrance {
+    display: flex;
+    justify-content: space-around;
+    background: blue;
+    color:white;
+    width: 339px;
+    height: 177px;
+    left: 1581px;
+}
+
+.pro {
+    width: 1452px;
+    height: 904px;
+    top: 3px;
+    left: 468px;
+}
+
+.calculator {
+    width: 300px;
+    height: 60px;
+    top: 687px;
+    left: 579px;
+    border-radius: 36px;
+    color: grey;
+}
+
+.bluee {
+    width: 468px;
+    height: 904px;
+    top: 3px;
+    color: #194DD2;
 
 }
 
-.header {
-    background: black;
+.beginning {
+    width: 282px;
+    height: 100px;
+    top:383px;
+    left:93px;
+    font-weight: 700;
+    size: 36px;
+    line-height: 140%;
+    letter-spacing: 3%;
+}
+
+.links {
+    width: 236px;
+    height: 60px;
+    top: 1442px;
+    left: 949px;
+    border-radius: 36px;
+    color: white;
+    background: blue;
+}
+
+.kakmy {
+    width: 653px;
+    height: 100px;
+    top: 1054px;
+    left: 949px;
+    font-weight: 700;
+    size: 42px;
+    line-height: 120% ;
+    letter-spacing: 3%;
+    color: #141B46;
+}
+
+.komanda {
+    font-weight: 400;
+    size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #000000;
 }
 
 section {
@@ -21,11 +106,134 @@ section {
     justify-content: space-between;
 }
 
-.box {
-    width: 50px;
-    min-height: 50px;
-    background: blue;
+.logo {
+    width: 49px;
+    height: 441px;
+    top: 16992px;
+    left: 259px;
+}
+
+.h1box {
+    width: 179px;
+    height: 49px;
+    top: 1701px;
+    left: 368px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.hbox {
+    width: 395px;
+    height: 186px;
+    top: 1792px;
+    left: 259px;
+    opacity: 70%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color:#000000;
+}
+
+.box1 {
+    width: 473px;
+    min-height: 408px;
+    top: 1634px;
+    left: 220px;
+    color: #ffffff;
+    border: 2px;
     border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2box {
+    width: 262px;
+    height: 49px;
+    top: 1701px;
+    left: 871px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.hboxx {
+    width: 395px;
+    height: 129px;
+    top: 1795px;
+    left: 762px;
+    opacity: 70%;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #000000;
+}
+
+.box2 {
+    width: 473;
+    height: 408;
+    top: 1634px;
+    left: 723px;
+    opacity: 1;
+    color: #ffffff;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h3box {
+    width: 179px;
+    height: 49px;
+    top: 1701px;
+    left: 1375px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #000000;
+}
+
+.hboxxx {
+    width: 383;
+    height: 128;
+    top: 1796px;
+    left: 1266px;
+    opacity: 0.7;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color:#000000;
+}
+
+.box3 {
+    width: 473px;
+    min-height: 408px;
+    top: 1634px;
+    left: 1227px;
+    border: 2px;
+    color: #ffffff;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {
