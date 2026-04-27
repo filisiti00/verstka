@@ -1,5 +1,5 @@
 h2{
-    font: montserrat;
+    font-family: montserrat;
 }
 
 .today {
@@ -62,15 +62,6 @@ h2{
     letter-spacing: 3%;
 }
 
-.links {
-    width: 236px;
-    height: 60px;
-    top: 1442px;
-    left: 949px;
-    border-radius: 36px;
-    color: white;
-    background: blue;
-}
 
 .kakmy {
     width: 653px;
@@ -104,13 +95,6 @@ section {
     min-height: 150px;
     border: 1px solid;
     justify-content: space-between;
-}
-
-.logo {
-    width: 49px;
-    height: 441px;
-    top: 16992px;
-    left: 259px;
 }
 
 .h1box {
@@ -236,6 +220,332 @@ section {
     justify-content: space-around;
 }
 
+.inv {
+    width: 1920px;
+    height: 753px;
+    top: 2156px;
+    background: #1A1A1A;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work {
+    width: 436;
+    height: 748;
+    top: 2161px;
+    opacity: 1;
+}
+
+.linkslogo {
+    width: 300;
+    height: 60;
+    top: 2643px;
+    left: 548px;
+    opacity: 1;
+    border-radius: 36px;
+    background: #194DD2;
+    display: flex;
+    align-items: flex-end;
+}
+
+.isnniv {
+    width: 401;
+    height: 150;
+    top: 2358px;
+    left: 548px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 3%;
+    color: #ffffff;
+}
+
+.logo1{
+    width: 85px;
+    height: 85px;
+    top: 2326px;
+    left: 1090px;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.onelogo {
+    width: 14px;
+    height: 54px;
+    top: 2342px;
+    left: 1126px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #194DD2;
+    display: inline;
+    flex-direction: column;
+}
+
+.reg {
+    width: 468;
+    height: 119;
+    top: 2309px;
+    left: 1213px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+
+.textlogo {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.logo2 {
+    width: 85px;
+    height: 85px;
+    top: 2492px;
+    left: 1090px;
+    opacity: 1;
+    display: block;
+    color: #194DD2
+}
+
+.twologo {
+    width: 21;
+    height: 54;
+    top: 2508px;
+    left: 1122px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #ffffff;
+    display: inline;
+}
+
+.depozit{
+    width: 457;
+    height: 118;
+    top: 2475px;
+    left: 1213px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.logo3 {
+    width: 85;
+    height: 85;
+    top: 2658px;
+    left: 1090px;
+    opacity: 1;
+    display: block;
+    color: #ffffff;
+}
+
+.threelogo{
+    width: 21;
+    height: 54;
+    top: 2674px;
+    left: 1122px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #194DD2;
+    display: inline;
+}
+
+.pribil {
+    width: 468;
+    height: 118;
+    top: 2640px;
+    left: 1213px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.chzv {
+    width: 1481;
+    height: 598;
+    top: 3028px;
+    left: 219px;
+    opacity: 1;
+}
+
+.voprosovn{
+    width: 663;
+    height: 63;
+    top: 3028px;
+    left: 623px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    background: #000000;
+}
+
+.logo {
+    width: 24;
+    height: 60;
+    top: 3386px;
+    left: 261px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    text-transform: lowercase;
+}
+
+.ftc {
+    width: 779;
+    height: 130;
+    top: 3206px;
+    left: 219px;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px 1px #00000026;
+}
+
+.otvet {
+    width: 685;
+    height: 420;
+    top: 3206px;
+    left: 1015px;
+    opacity: 1;
+    background: #0A51CB;
+}
+
+.first{
+    width: 539;
+    height: 129;
+    top: 3271px;
+    left: 1078px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 3%;
+    text-transform: lowercase;
+}
+
+.firstotvet{
+    width: 547;
+    height: 64;
+    top: 3496px;
+    left: 1078px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    color: #ffffff;
+}
+
+.firstspan {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    color: #ffffff;
+}
+
+.statistika {
+    width: 1920;
+    height: 728;
+    top: 3745px;
+    opacity: 1;
+}
+
+.stkompany{
+    width: 1495.0003662109375;
+    height: 157.69607543945312;
+    top: 4011.15px;
+    left: 212px;
+    opacity: 1;
+    border: 2px solid #FFFFFF;
+}
+
+.links {
+    width: 300;
+    height: 60;
+    top: 4271px;
+    left: 647px;
+    opacity: 1;
+    border-radius: 36px;
+    background: #0A51CB;
+    color: #ffffff;
+}
+
+.calculator {
+    width: 300;
+    height: 60;
+    top: 4272px;
+    left: 972px;
+    opacity: 1;
+    border-radius: 36px;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+}
+
 .footer {
-    background: grey;
+    width: 1920;
+    height: 591;
+    top: 4473px;
+    opacity: 1;
+    border: 1px solid #EFEFEF;
+}
+
+.footerkomanda{
+    width: 404;
+    height: 162;
+    top: 4584px;
+    left: 217px;
+    opacity: 1;
+    background: #EFEFEF80;
+}
+
+.h4 {
+    width: 505;
+    height: 256;
+    top: 4584px;
+    left: 748px;
+    opacity: 1;
+    border: 1px solid #EFEFEF;
 }
