@@ -3,16 +3,16 @@ h2{
 }
 
 .menu {
-    background: #000000;
     width: 1113px;
     min-height: 117px;
     display: flex;
     justify-content: space-around;
+    background: #000000;
 }
 
 .meny {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 18px;
     line-height: 162%;
     letter-spacing: 3%;
@@ -401,15 +401,15 @@ h2{
 }
 
 .statistika {
-    width: 1920;
-    height: 728;
+    width: 1920px;
+    height: 728px;
     top: 3745px;
     opacity: 1;
 }
 
 .stkompany{
-    width: 1495.0003662109375;
-    height: 157.69607543945312;
+    width: 1495px;
+    height: 157px;
     top: 4011.15px;
     left: 212px;
     opacity: 1;
@@ -443,7 +443,8 @@ h2{
     height: 591;
     top: 4473px;
     opacity: 1;
-    border: 1px solid #EFEFEF;
+    background: #0C0C0C;
+
 }
 
 .footerkomanda{
@@ -453,4 +454,67 @@ h2{
     left: 217px;
     opacity: 1;
     background: #EFEFEF80;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 3%;
+}
+
+.left {
+    width: 282;
+    height: 168;
+    top: 4672px;
+    left: 748px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    color: #EFEFEF;
+}
+
+.right {
+    width: 200;
+    height: 126;
+    top: 4672px;
+    left: 1053px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    color: #EFEFEF;
+}
+
+h4 {
+    width: 131;
+    height: 36;
+    top: 4584px;
+    left: 1373px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footerspan {
+    width: 319;
+    height: 175;
+    top: 4671px;
+    left: 1371px;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 3%;
+    color: #EFEFEF;
+
 }
