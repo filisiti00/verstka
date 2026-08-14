@@ -1,179 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
-    <header>
-        <meta charset="Utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width device-width, initial-scale=1.0">
-        <title>Инвестиции</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <nav class="menu">
-        <p class="meny">О компании</p>
-        <p class="meny">Инвестору</p>
-        <p class="meny">Новости</p>
-        <p class="meny">Отзывы</p>
-        <p class="meny">F.A.Q</p>
-        <p class="meny">Контакты</p>
-        <a href="#" class="entrance">Вход/Регистрация</a>
-        </nav>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инвестиции | Future Technologies</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="#">FTC</a>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Инвестору</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn--primary btn--small">Вход/Регистрация</a>
+        </div>
     </header>
+
     <main>
-        <body>
-            <section >
-                <div >
-                    <img src="images/bluek.png" alt="bluecolor" class="bluee">
-                    <img src="images/nachatizarabativati.jpg" alt="программист" class="pro">
-                    <h1 class="today">Сегодня рынок IT-технологий измеряется уже триллионами долларов</h1>
-                    <p class="titletoday">Мы знаем как заработать свою долю прибыли. Регестрируйтесь на нашей платформе и начинайте зарабатывать с нами</p>
-                    <a href="#" class="beginning">Начать зарабатывать</a>
-                    <a href="#" class="calculator">Калькулятор прибыли</a>
+
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Сегодня рынок IT-технологий измеряется уже триллионами долларов</h1>
+                    <p class="hero__subtitle">Мы знаем как заработать свою долю прибыли. Регистрируйтесь на нашей платформе и начинайте зарабатывать с нами</p>
+                    <div class="hero__actions">
+                        <a href="#" class="btn btn--primary">Начать зарабатывать</a>
+                        <a href="#" class="btn btn--secondary">Калькулятор прибыли</a>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <div class="regis">
-                    <h2 class="kmr">Как мы работаем</h2>
-                    <img src="images/bluek.png" alt="bluecolor">
-                    <img src="images/kakmyrabotaemverx.png" alt="polovinkax">
-                    <div>
-                    <img src="images/kakmyrabotaemniz.png" alt="polovinka">
-                    <div>
-                    <h2 class="kakmy">Как мы работаем и на чем зарабатываем</h2>
-                    <p class="komanda">Команда, у которой за плечами не менее 12 лет работы на разных позициях в сегменте инвестиционного бизнеса - от аудитора и аналитика отдела рисков до финансового директора инвестиционного банка.</p>
-                    <p class="komanda">Формируя динамичный инвестиционный портфель, мы ежедневно применяем накопительный опыт в разных направлениях, и делаем упор на стартапы в сферах:</p>
-                    <a href="#" class="links">Регистрация</a>
-                    <div class="grid-3col">
+                <div class="hero__image">
+                    <img src="images/nachatizarabativati.jpg" alt="Программист за работой">
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">Как мы работаем</h2>
+                <div class="about__grid">
+                    <div class="about__text">
+                        <h3>Как мы работаем и на чем зарабатываем</h3>
+                        <p>Команда, у которой за плечами не менее 12 лет работы на разных позициях в сегменте инвестиционного бизнеса - от аудитора и аналитика отдела рисков до финансового директора инвестиционного банка.</p>
+                        <p>Формируя динамичный инвестиционный портфель, мы ежедневно применяем накопительный опыт в разных направлениях, и делаем упор на стартапы в сферах:</p>
+                        <a href="#" class="btn btn--primary">Регистрация</a>
+                    </div>
+                    <div class="about__cards">
                         <div class="card">
-                            <div class="card-icon"><i class="fa fa-chart-line"></i></div>
-                            <img src="images/Group.svg">
-                            <h3>Блокчейн и криптовалюта</h3>
+                            <div class="card__icon"><i class="fas fa-chart-line"></i></div>
+                            <h4>Блокчейн и криптовалюта</h4>
                             <p>Сегодня IT-проекты в этой сфере в центре внимания инвесторов всего мира. Но эти технологии интересуют нас не только сами по себе, мы рассматриваем перспективы их внедрения в e-commerce и развитие маркетплейсов.</p>
                         </div>
-
-                        <div class="card">
-                            <div class="card-icon"><i class="fa fa-microchip"></i></div>
-                            <img src="images/Group.svg">
-                            <h3>Искусственный интеллект в сфере беттинга</h3>
+                        <div class="card card--blue">
+                            <div class="card__icon"><i class="fas fa-microchip"></i></div>
+                            <h4>Искусственный интеллект в сфере беттинга</h4>
                             <p>Запатентованный инфопродукт собственного производства на основе искусственного интеллекта служит инструментом получения стабильного дохода в сфере беттинга.</p>
-                            </div>
-
-                            <div class="card"> 
-                                <div class="card-icon"><i class="fa fa-vr-cardboard"></i></div>
-                                <img src="images/Group.svg">
-                                <h3>VR и виртуальные миры</h3>
-                                <p>Некоторые инвесторы уже разуверились в этих сферах, но технология виртуальной реальности "воскресила" эти отрасли и превратила "Old School" в "New Sexy".</p>
-                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__icon"><i class="fas fa-vr-cardboard"></i></div>
+                            <h4>VR и виртуальные миры</h4>
+                            <p>Некоторые инвесторы уже разуверились в этих сферах, но технология виртуальной реальности "воскресила" эти отрасли и превратила "Old School" в "New Sexy".</p>
                         </div>
                     </div>
-            </section>
-            <section>
-                <div class="inv">
-                    <img src="images/nadeshnoivigodno.jpg" alt="работа" class="work">
-                    <h2 class="isnniv">Инвестировать с нами надежно и выгодно</h2>
-                    <a href="#" class="linkslogo">Начать зарабатывать</a>
-                    <ul>
-                        <ol>
-                            <img src="images/Ellipse1.svg" alt="one1" class="logo1">
-                            <p class="onelogo">1</p>
-                            <p class="reg">Регистрация на сайте</p>
-                            <span class="textlogo">Пройдите процедуру регистрации на сайте для открытия счета. Нажмите на кнопку "Регистрация" и заполните все необходимые поля</span>
-                            <img src="images/Ellipse2.svg" alt="two2" class="logo2">
-                            <p class="twologo">2</p>
-                            <p class="depozit">Открывайте депозит</p>
-                            <span class="textlogo">Сделаете инвестицию на удобный срок на сумму от 100 рублей и ваши деньги начнут работать на вас </span>
-                            <img src="images/Ellipse3.svg" alt="tree3" class="logo3">
-                            <p class="threelogo">3</p>
-                            <p class="pribil">Распоряжайтесь прибылью </p>
-                            <span class="textlogo">По факту окончания периода инвестиции вклад с прибылью будут доступны для вывода или создания нового депозита</span>
-                        </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container benefits__container">
+                <div class="benefits__image">
+                    <img src="images/nadeshnoivigodno.jpg" alt="Надежно и выгодно">
+                </div>
+                <div class="benefits__content">
+                    <h2 class="benefits__title">Инвестировать с нами надежно и выгодно</h2>
+                    <a href="#" class="btn btn--primary">Начать зарабатывать</a>
+                    <ul class="benefits__list">
+                        <li class="benefit-item">
+                            <span class="benefit-item__number">1</span>
+                            <div class="benefit-item__text">
+                                <h4>Регистрация на сайте</h4>
+                                <p>Пройдите процедуру регистрации на сайте для открытия счета. Нажмите на кнопку "Регистрация" и заполните все необходимые поля</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <span class="benefit-item__number">2</span>
+                            <div class="benefit-item__text">
+                                <h4>Открывайте депозит</h4>
+                                <p>Сделаете инвестицию на удобный срок на сумму от 100 рублей и ваши деньги начнут работать на вас</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <span class="benefit-item__number">3</span>
+                            <div class="benefit-item__text">
+                                <h4>Распоряжайтесь прибылью</h4>
+                                <p>По факту окончания периода инвестиции вклад с прибылью будут доступны для вывода или создания нового депозита</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-            </section>
-            <section>
-                <div class="chzv">
-                    <h2 class="voprosov">Часто задаваемые вопросы</h2>
-                    <ul>
-                        <img src="images/vopros.svg" alt="xz" class="logo">
-                        <h2 class="ftc">Что нужно, чтобы начать работу с future technologies company (ftc)?</h2>
-                        <img src="images/vopros.svg" alt="xz" class="logo">
-                        <h2 class="ftc">Могу ли я не заработать, инвестируя с future technologies company (ftc)?</h2>
-                        <img src="images/vopros.svg" alt="xz" class="logo">
-                        <h2 class="ftc">Какая минимальная и максимальная сумма депозита?</h2>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container faq__container">
+                <h2 class="section-title">Часто задаваемые вопросы</h2>
+                <div class="faq__wrapper">
+                    <ul class="faq__list">
+                        <li><a href="#" class="faq__question"><i class="fas fa-question-circle"></i> Что нужно, чтобы начать работу с Future Technologies Company?</a></li>
+                        <li><a href="#" class="faq__question"><i class="fas fa-question-circle"></i> Могу ли я не заработать, инвестируя с Future Technologies Company?</a></li>
+                        <li><a href="#" class="faq__question"><i class="fas fa-question-circle"></i> Какая минимальная и максимальная сумма депозита?</a></li>
                     </ul>
+                    <div class="faq__answer">
+                        <h3>Какая минимальная и максимальная сумма депозита?</h3>
+                        <p>Минимальный размер депозита — <strong>100 рублей.</strong></p>
+                        <p>Максимальный размер депозита — <strong>80 000 000 рублей.</strong></p>
+                    </div>
                 </div>
-                <div class="otvet">
-                    <h2 class="first">Какая минимальная и максимальная сумма депозита?</h2>
-                    <p class="firstotvet">Минимальный размер депозита - <span class="firstspan">100 рублей.</span></p>
-                    <p class="firstotvet">Максимальный размер депозита - <span class="firstspan">80 000 000 рублей.</span></p>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container stats__container">
+                <h2 class="section-title">Статистика компании</h2>
+                <div class="stats__grid">
+                    <div class="stat-item">
+                        <span class="stat-item__number">932</span>
+                        <span class="stat-item__label">Работаем (дней)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__number">960 696</span>
+                        <span class="stat-item__label">Всего инвесторов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__number">67</span>
+                        <span class="stat-item__label">Новых за 24 часа</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__number">109 500 ₽</span>
+                        <span class="stat-item__label">Среднее пополнение</span>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <div class="statistika">
-                    <h2>Статистика компании</h2>
-                    <img src="images/seti.jpg" alt="статистика">
-                    <table class="stkompany">
-                        <thead>
-                            <tr>
-                                <th>932</th>
-                                <th>960696</th>
-                                <th>67</th>
-                                <th>109500р.</th><th></th>
-                            </tr>
-                            <thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Работаем (дней)</td>
-                                        <td>Всего инвесторов</td>
-                                        <td>Новых за 24 часа</td>
-                                        <td>Среднее пополнение</td>
-                                    </tr>
-                                </tbody>
-                            </thead>
-                            </tr>
-                        </thead>
-                    </table>
-                    <a href="#" class="links">Присоединиться к нам</a>
-                    <a href="#" class="calculator">Калькулятор прибыли </a>
+                <div class="stats__actions">
+                    <a href="#" class="btn btn--primary">Присоединиться к нам</a>
+                    <a href="#" class="btn btn--secondary">Калькулятор прибыли</a>
                 </div>
-            </section>
-        </body>
+            </div>
+        </section>
+
     </main>
+
     <footer class="footer">
-        <div>
-            <p class="footerkomanda">Команда, у коорой за плечами не менее 12 лет работы на разных позициях в сегменте инвестиционного бизнеса - от аудитора и аналитика отдела рисков до финансового директора инвестиционного банка. </p>
-        </div>
-        <div>
-            <h4>Навигация</h4>
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="left">Главная</td>
-                        <td class="right">Документы компании</td>
-                    </tr>
-                    <tr>
-                        <td class="left">О компании</td>
-                        <td class="right">Новости</td>
-                    </tr>
-                    <tr>
-                        <td class="left">Отзывы о компании</td>
-                        <td class="right">F.A.Q</td>
-                    </tr>
-                    <tr>
-                        <td class="left">Как мы зарабатываем?</td>
-                        <td class="right">Контакты</td>
-                    </tr>
-                    <tr>
-                        <td class="left">Клиентское соглашение</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div>
-            <h4>Контакты</h4>
-            <p>+7 (499)-299-33-33</p>
-            <span class="footerspan">info@ftc.vin</span>
-            <h4><span class="footerspan">ПН - ПТ:</span> 10:00 - 20:00 по МСК</h4>
-            <h4><span class="footerspan">СБ - ВС:</span>свободный график</h4>
+        <div class="container footer__container">
+            <div class="footer__about">
+                <p>Команда, у которой за плечами не менее 12 лет работы на разных позициях в сегменте инвестиционного бизнеса - от аудитора и аналитика отдела рисков до финансового директора инвестиционного банка.</p>
+            </div>
+            <div class="footer__nav">
+                <h4>Навигация</h4>
+                <ul class="footer__nav-list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Отзывы о компании</a></li>
+                    <li><a href="#">Как мы зарабатываем?</a></li>
+                    <li><a href="#">Клиентское соглашение</a></li>
+                    <li><a href="#">Документы компании</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">F.A.Q</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <h4>Контакты</h4>
+                <p><a href="tel:+74992993333">+7 (499)-299-33-33</a></p>
+                <p><a href="mailto:info@ftc.vin">info@ftc.vin</a></p>
+                <p><strong>ПН - ПТ:</strong> 10:00 - 20:00 по МСК</p>
+                <p><strong>СБ - ВС:</strong> свободный график</p>
+            </div>
         </div>
     </footer>
 
+</body>
 </html>
